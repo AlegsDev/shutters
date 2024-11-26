@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Жалюзи Mirali</title>
+    <link rel="icon" href="img/logot.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Tomorrow:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo" src="img/logot.png" alt="Логотип">
+        </div>
+        <div class="phone">
+            <a href="tel:+77770000000">+7 (777) 000-00-00</a>
+        </div>
+        <div class="language-switch">
+            <button onclick="switchLanguage('ru')">Русский</button>
+            <button onclick="switchLanguage('kz')">Қазақ тілі</button>
+            <a href="https://wa.me/79615870514" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-whatsapp white-for-header-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+            </svg></a>
+        </div>
+    </header>
+
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="img/1000mv.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+    </div>
+
+    <section id="about-us">
+        <h2 class="about-heading">О нас</h2>
+        <img src="img/atWork.png" alt="Фон" class="background-image-f">
+        <div class="info-boxes">
+            <div class="info-box">
+                <h3 id="experience-title">Опыт</h3>
+                <p id="experience-text">Наша команда обладает многолетним опытом в сфере производства и установки жалюзи.</p>
+            </div>
+            <div class="info-box">
+                <h3 id="quality-title">Качество</h3>
+                <p id="quality-text">Мы используем только высококачественные материалы и современные технологии.</p>
+            </div>
+            <div class="info-box">
+                <h3 id="service-title">Сервис</h3>
+                <p id="service-text">Мы предлагаем индивидуальный подход к каждому клиенту и гарантируем высокое качество обслуживания.</p>
+            </div>
+        </div>
+    </section>
+    <div style="margin-bottom: 100px;"></div>
+    <section id="assortment">
+        <h2 class="header-blinds-types"><b>Виды жалюзи</b></h2>
+        <div class="blinds-types">
+            <div class="blind">
+                <h3>Горизонтальные</h3>
+                <p>Классический вариант, подходит для большинства интерьеров.</p>
+                <ul>
+                    <li>Алюминиевые</li>
+                    <li>Пластиковые</li>
+                    <li>Деревянные</li>
+                </ul>
+            </div>
+            <div class="blind">
+                <h3>Тюлевые</h3>
+                <p>Элегантное решение для мягкого света и уюта в интерьере.</p>
+                <ul>
+                    <li>Однотонные</li>
+                    <li>Мраморные</li>
+                    <li>С узорами</li>
+                </ul>
+            </div>
+            <div class="blind">
+                <h3>Рулонные</h3>
+                <p>Компактный и стильный вариант, легко регулируется.</p>
+                <ul>
+                    <li>День и ночь</li>
+                    <li>MatSun</li>
+                    <li>Blackout</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div style="margin-bottom: 45px;"></div>
+    <div class="container">
+        <h2 class="header-blinds-types"><b>Преимущества наших жалюзи</b></h2>
+        <div class="content">
+          <div class="image-container">
+            <img src="img/curtains.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="accordion-container">
+            <button class="accordion active">Защита от солнца</button>
+            <div class="panel" style="max-height: 200px;">
+              <p>Жалюзи эффективно защищают от яркого солнечного света.</p>
+            </div>
+      
+            <button class="accordion">Регулировка света</button>
+            <div class="panel">
+              <p>Позволяют регулировать уровень освещенности в помещении.</p>
+            </div>
+      
+            <button class="accordion">Теплоизоляция</button>
+            <div class="panel">
+              <p>Снижают теплопотери зимой и защищают от жары летом.</p>
+            </div>
+            <button class="accordion">Звукоизоляция</button>
+            <div class="panel">
+              <p>Снижают уровень шума извне, создавая тихую и комфортную атмосферу.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div style="margin-bottom: 100px;"></div>
+    <div class="image-wrapper">
+        <img src="img/by5.png" class="background-image" alt="Чёрно-жёлтый фон">
+        <div class="overlay-text">
+            Отзывы наших клиентов
+        </div>
+        <div class="photos">
+            <img src="img/review1.png" class="photo tilted-left" alt="Фото 1" onclick="openModal(this.src)">
+            <img src="img/review2.png" class="photo tilted-right" alt="Фото 2" onclick="openModal(this.src)">
+            <img src="img/review3.png" class="photo tilted-right tilted-right-p" alt="Фото 3" onclick="openModal(this.src)">
+            <img src="img/review4.png" class="photo tilted-left tilted-left-p" alt="Фото 4" onclick="openModal(this.src)">
+        </div>
+    </div>
+    
+    
+    <div id="modal" class="modal">
+        <span id="close-modal" class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+    <div class="table-and-image-container">
+        <div class="title"><b>Цены и акции</b></div>
+        <div class="inner-container">
+            <div class="table-responsive">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th>Тип жалюзи</th>
+                            <th>Цена за м²</th>
+                            <th>Акция</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Горизонтальные</td>
+                            <td>от 1500 тенге</td>
+                            <td>Скидка 10% при заказе от 10 м²</td>
+                        </tr>
+                        <tr>
+                            <td>Тюлевые</td>
+                            <td>от 2000 тенге</td>
+                            <td>Бесплатная доставка при заказе от 20 м²</td>
+                        </tr>
+                        <tr>
+                            <td>Рулонные</td>
+                            <td>от 1800 тенге</td>
+                            <td>Скидка 15% на второй комплект</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="img/pks.png" class="promo-image" alt="Картинка">
+        </div>
+    </div>
+    <div class="order-container">
+        <div class="order-steps">
+            <h2 class="order-title">Как сделать заказ</h2>
+            <div class="step">
+                <div class="step-svg">
+                    <svg data-testid="arrow-svg">
+                        <path d="M 0 126 L 45 144 L 90 126 L 90 0 L 45 18 L 0 0 Z" class="themed-svg-shape-background"></path>
+                    </svg>
+                    <span class="step-number">1</span>
+                </div>
+                <div class="step-text">
+                    <h3>Шаг 1</h3>
+                    <p>Напишите нам на WhatsApp. Наш оператор поможет с выбором и примет заказ.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-svg">
+                    <svg data-testid="arrow-svg">
+                        <path d="M 0 126 L 45 144 L 90 126 L 90 0 L 45 18 L 0 0 Z" class="themed-svg-shape-background"></path>
+                    </svg>
+                    <span class="step-number">2</span>
+                </div>
+                <div class="step-text">
+                    <h3>Шаг 2</h3>
+                    <p>Наш специалист приедет, выполнит замеры окон и подготовит проект.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-svg">
+                    <svg data-testid="arrow-svg">
+                        <path d="M 0 126 L 45 144 L 90 126 L 90 0 L 45 18 L 0 0 Z" class="themed-svg-shape-background"></path>
+                    </svg>
+                    <span class="step-number">3</span>
+                </div>
+                <div class="step-text">
+                    <h3>Шаг 3</h3>
+                    <p>В течение трёх дней работа будет завершена, и вы сможете оценить результат.</p>
+                </div>
+            </div>
+        </div>
+        <img src="img/order.png" alt="Как сделать заказ" class="order-image">
+    </div>
+    
+    
+    <div style="margin-bottom: 1000px;"></div>
+</body>
+</html>
