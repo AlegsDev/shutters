@@ -35,6 +35,9 @@ header {
     cursor: pointer;
     margin-left: 10px;
 }
+.language-switch button:hover{
+    text-decoration: underline;
+}
 
 .logo {
     max-width: 90px;
@@ -73,6 +76,7 @@ header {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    filter: brightness(25%); 
 }
 
 .info-boxes {
@@ -599,7 +603,6 @@ border-right: 1px solid #262623;
 .order-title {
     width: 100%;
     font-size: 2rem;
-    margin-bottom: 2%;
 }
 
 .order-steps {
@@ -621,9 +624,6 @@ border-right: 1px solid #262623;
     width: 12%;
     aspect-ratio: 1;
     margin-top: -5%;
-}
-
-.step-svg svg {
     fill: grey;
 }
 
@@ -654,7 +654,7 @@ border-right: 1px solid #262623;
     object-fit: cover;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     .order-title {
         font-size: 1.1rem;
     }
@@ -686,7 +686,7 @@ border-right: 1px solid #262623;
         font-size: 100px;
         top: 37%;
         left: 160%;
-        transform: translate(-50%, -50%); /* Полное центрирование */
+        transform: translate(-50%, -50%);
     }
 
     .step-text h3 {
@@ -698,9 +698,20 @@ border-right: 1px solid #262623;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1024px) {
     .order-container {
         padding: 0 3%;
+    }
+    .step-svg {
+        transform: scale(0.4);
+        /* margin-top: -30%; */
+        margin-left: -4%;
+    }
+    .step-number {
+        font-size: 60px;
+        top: 37%;
+        left: 120%;
+        transform: translate(-50%, -50%);
     }
 
     .order-image {
@@ -709,6 +720,18 @@ border-right: 1px solid #262623;
 
     .order-steps {
         max-width: 55%;
+    }
+
+    .order-title {
+        font-size: 1.3em;
+    }
+
+    .step-text h3 {
+        font-size: 1em;
+    }
+
+    .step-text p {
+        font-size: 1rem;
     }
 }
 
@@ -726,7 +749,51 @@ border-right: 1px solid #262623;
     }
 
     .step-text p {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
+    }
+    .step-svg{
+        margin-right: 20px;
     }
 }
 
+footer {
+    display: flex;
+    margin-left: 150px;
+    padding: 20px;
+}
+
+.footer-contacts {
+    min-width: 250px;
+    margin-left: 10%;
+}
+
+.footer-contacts h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.footer-contacts p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    color: #a7a7a0;
+}
+
+.footer-contacts a {
+    color: #a7a7a0;
+    text-decoration: none;
+}
+
+.footer-contacts a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    footer {
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .footer-contacts {
+        margin-left: 0;
+    }
+}
